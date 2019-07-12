@@ -12,10 +12,10 @@ I made two maps:  one for Defoe's novels and one for the travel literature. The 
 
 <p style="text-align: center;"><strong>Resources</strong></p>
 
-Gutenberg: OCR Text
-Stanford NER Tool: Named Entity Recognizer tool for tagging locations
-Vader Sentiment Analysis Tool: Tool for analyzing emotional valence of text 
-Stanford Sentiment Analysis Tool: Tool for analyzing emotional valence of text 
-ArcGIS: Mapping Software
-AntConc: Text Analysis
-Google Sheets: Data Collection
+* [Gutenberg:](https://www.gutenberg.org/wiki/Main_Page) OCR Text
+* [Stanford NER Tool:](https://nlp.stanford.edu/software/CRF-NER.html)Named Entity Recognizer tool for tagging locations
+* [Vader Sentiment Analysis Tool:](https://github.com/cjhutto/vaderSentiment)Tool for analyzing emotional valence of text 
+* [Stanford Sentiment Analysis Tool:](https://stanfordnlp.github.io/CoreNLP/)Tool for analyzing emotional valence of text 
+* [ArcGIS: Mapping Software](https://www.arcgis.com/home/index.html)
+* [AntConc: Text Analysis](http://www.laurenceanthony.net/software/antconc/)
+* [Google Sheets:] Data Collection
