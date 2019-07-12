@@ -5,7 +5,7 @@ The tool will provide a tagged file of the text identifying words that fit under
 ![alt text](https://github.com/IC97/Defoe-Map/blob/master/images/stanford-ner.png "Stanford NER")
 
 1. Download Java 8 or later
-2. Download zip file from [https://nlp.stanford.edu/software/CRF-NER.html]
+2. Download zip file from https://nlp.stanford.edu/software/CRF-NER.html
 3. Unzip and unpack zip files
 4. Click on stanford-ner-3.9.1.jar (executable file) in the Stanford folde
 5. Click on 'Classifier' then 'Load CRF from File' (CRF in classifiers folder)
@@ -16,7 +16,7 @@ The tool will provide a tagged file of the text identifying words that fit under
 
 ## [Stanford Sentiment Tool:]
 
-1. Go to [http://corenlp.run/]
+1. Go to http://corenlp.run/
 2. Get rid of all the annotations except sentiment
 3. Copy and paste your passage onto the box (make sure to use chunks not the entire text)
 4. Click 'Submit' and record the data onto a spreadsheet
