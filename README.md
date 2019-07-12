@@ -8,7 +8,7 @@ I made two maps:  one for Defoe's novels and one for the travel literature. The 
 
 **Research Question:** How does Defoe describe these locations and how his descriptions evoke a negative, positive or neutral emotion?
 
-**Table of Contents:** 1. Methods 2. Tools 3. Maps
+**Table of Contents:** 1. [Methods](https://github.com/IC97/Defoe-Map/tree/master/methods) 2. [Tools](https://github.com/IC97/Defoe-Map/tree/master/tools) 3. [Maps](https://github.com/IC97/Defoe-Map/tree/master/maps)
 
 ## Resources
 
