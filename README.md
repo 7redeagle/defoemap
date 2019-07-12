@@ -18,4 +18,4 @@ I made two maps:  one for Defoe's novels and one for the travel literature. The 
 * [Stanford Sentiment Analysis Tool:](https://stanfordnlp.github.io/CoreNLP/)Tool for analyzing emotional valence of text 
 * [ArcGIS: Mapping Software](https://www.arcgis.com/home/index.html)
 * [AntConc: Text Analysis](http://www.laurenceanthony.net/software/antconc/)
-* [Google Sheets:] Data Collection
+* Google Sheets: Data Collection
