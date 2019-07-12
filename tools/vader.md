@@ -7,3 +7,25 @@ Vader Grade Score: The compound score is computed by summing the valence scores 
 * positive sentiment: compound score >= 0.05
 * neutral sentiment: 0.05 > compound score > -0.05
 * negative sentiment: compound score <= -0.05
+
+![alt text](https://github.com/IC97/Defoe-Map/blob/master/images/vader-sample.png "Vader Sample")
+
+## Vader Setup:
+1. Read How to Guide: [Sentiment Analysis for Exploratory Data Analysis](https://programminghistorian.org/en/lessons/sentiment-analysis#exploring-text-with-sentiment-analysis)
+2. Update Python on my laptop to Python 3.6. and download the required dependencies
+3. Update PIP and download Msgpack then Twython
+4. Download NLTK plus options
+5. Set up according to the guide
+6. Use Sublime Text: Edit document in Sublime. Save as file.py then run through python3.6. Open terminal in that folder. Type python3.6 ./filename.py 
+7. Or run in Sublime: [Link Python 3.6 to Sublime](https://gist.github.com/zaemiel/4fbd8b5125fda7a140be). Build System. Click 'Tool' then 'Build' 
+
+## Pros:
+* Simple to setup 
+* Computationally efficient
+* Performs well on short passages
+
+## Cons: 
+* Not as accurate on larger chunks of text
+* Mainly used to analyze social media tweets not passages from 18th century novels
+* Tends to give either a positive or negative reading but almost never a neutral one
+
