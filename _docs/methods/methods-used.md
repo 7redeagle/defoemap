@@ -1,9 +1,14 @@
+---
+title: Methods Used
+permalink: /docs/methods-used/
+---
+
 ## Methods
 
-My original method involved me reading the entire text then assigning an emotion to each location visited. I then realized I needed a more quantifiable way to analyze emotions within the text so I added sentiment analysis tools to my list of resources. 
+My original method involved me reading the entire text then assigning an emotion to each location visited. I then realized I needed a more quantifiable way to analyze emotions within the text so I added sentiment analysis tools to my list of resources.
 
 
-I soon realized my earlier methods were too time consuming so I sought for a more machine-oriented way to streamline the process. My new method involved NER tagging the text (taken from Gutenberg) then locating the passages with those location tags and running those passages through two sentiment analysis tools before providing my own score of that passage. The two sentiment analysis tools used were Vader and Stanford sentiment analysis tool. Vader seems to provide a more positive rating while Stanford mostly gives out negative ratings to the passages. I then used ArcGIS to create a map for Defoe’s novels, which has different layers for each novel followed by separate layers for Vader, Stanford and my score of that novel. This method focused on locations mentioned in the text rather than the actual location the characters were in. 
+I soon realized my earlier methods were too time consuming so I sought for a more machine-oriented way to streamline the process. My new method involved NER tagging the text (taken from Gutenberg) then locating the passages with those location tags and running those passages through two sentiment analysis tools before providing my own score of that passage. The two sentiment analysis tools used were Vader and Stanford sentiment analysis tool. Vader seems to provide a more positive rating while Stanford mostly gives out negative ratings to the passages. I then used ArcGIS to create a map for Defoe’s novels, which has different layers for each novel followed by separate layers for Vader, Stanford and my score of that novel. This method focused on locations mentioned in the text rather than the actual location the characters were in.
 
 
 ## My Current Method:
@@ -21,9 +26,9 @@ I soon realized my earlier methods were too time consuming so I sought for a mor
 ## Abandoned Methods:
 
 *Fusion Table:*
-1. Run corpus through Vader or Stanford Sentiment Analysis 
+1. Run corpus through Vader or Stanford Sentiment Analysis
 2. Save data and scores onto google sheets
-3. Insert KML for shape of the bubbles 
+3. Insert KML for shape of the bubbles
 4. Make a fusion table from the spreadsheet
 5. Play around with the map and the gradient of the bubbles (red for negative and green for positive)
 

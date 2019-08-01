@@ -1,3 +1,8 @@
+---
+title: Stanford
+permalink: /docs/stanford/
+---
+
 ## [Stanford NER Tool:](https://nlp.stanford.edu/software/CRF-NER.html)
 
 The tool will provide a tagged file of the text identifying words that fit under organization, location or person.
@@ -9,7 +14,7 @@ The tool will provide a tagged file of the text identifying words that fit under
 3. Unzip and unpack zip files
 4. Click on stanford-ner-3.9.1.jar (executable file) in the Stanford folde
 5. Click on 'Classifier' then 'Load CRF from File' (CRF in classifiers folder)
-6. Choose 'english.all.3class.distsim.crf.ser.gz' file 
+6. Choose 'english.all.3class.distsim.crf.ser.gz' file
 7. Choose the file you want to analyze or copy and paste text directly onto the tool
 8. Click 'Run NER'
 9. Save as Tagged File

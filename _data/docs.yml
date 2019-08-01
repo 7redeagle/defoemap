@@ -9,3 +9,14 @@
   - cheatsheet
   - font-awesome
   - bootstrap
+
+- title: Methods
+  docs:
+  - methods-used
+  - alice-method
+
+- title: Tools
+  docs:
+  - vader
+  - stanford
+  - antconc
