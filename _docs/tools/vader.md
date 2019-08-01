@@ -1,7 +1,6 @@
 ---
 title: Vader
 permalink: /docs/vader/
-redirect_from: /docs/index.html
 ---
 
 ## [What is Vader:](https://github.com/cjhutto/vaderSentiment)

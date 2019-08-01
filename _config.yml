@@ -41,11 +41,12 @@ defaults:
     sectionid: blog
 
 - scope:
-    path: _stats
-    type: posts
+    path: _excel
+    type: excel
   values:
-    layout: post
-    sectionid: stats
+    layout: excel
+    sectionid: excel
+
 
 - scope:
     path: _docs
