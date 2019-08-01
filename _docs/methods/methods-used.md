@@ -1,6 +1,7 @@
 ---
 title: Methods Used
 permalink: /docs/methods-used/
+redirect_from: /docs/index.html
 ---
 
 ## Methods

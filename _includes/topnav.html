@@ -13,7 +13,31 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | prepend: site.baseurl }}">Docs</a></li>
+                <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/intro/" | prepend: site.baseurl }}">Docs</a></li>
+                <li {% if page.sectionid=='docs' %} class="active" {% endif %}>
+                    <a href="{{ "/index.html" | prepend: site.baseurl }}" class="dropdown-toggle" data-toggle="dropdown">Modules <div class="caret"></div></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="{{site.baseurl}}/topic-00/">Introduction</a></li>
+                      <hr>
+                      <span>GIT Module</span>
+                      <li><a href="{{site.baseurl}}/topic-01/">01://Reopositories</a></li>
+                      <li><a href="{{site.baseurl}}/topic-02/">02://READMEs</a></li>
+                      <li><a href="{{site.baseurl}}/topic-03/">03://Pages</a></li>
+                      <li><a href="{{site.baseurl}}/topic-04/">04://GIT Website</a></li>
+                      <hr>
+                      <span>HTML Module</span>
+                      <li><a href="{{site.baseurl}}/topic-05/">05://Markup</a></li>
+                      <li><a href="{{site.baseurl}}/topic-06/">06://Forms</a></li>
+                      <li><a href="{{site.baseurl}}/topic-07/">07://Media</a></li>
+                      <li><a href="{{site.baseurl}}/topic-08/">08://HTML Website</a></li>
+                      <hr>
+                      <span>CSS Module</span>
+                      <li><a href="{{site.baseurl}}/topic-09/">09://Color</a></li>
+                      <li><a href="{{site.baseurl}}/topic-10/">10://Typography</a></li>
+                      <li><a href="{{site.baseurl}}/topic-11/">11://Positiong</a></li>
+                      <li><a href="{{site.baseurl}}/topic-12/">12://CSS Website</a></li>
+                    </ul>
+                </li>
                 <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">Blog</a></li>
             </ul>
             <div class="navbar-right">

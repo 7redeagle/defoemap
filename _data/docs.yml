@@ -1,14 +1,6 @@
-- title: Getting Started
+- title: Introduction
   docs:
   - home
-  - themes
-  - customization
-
-- title: Examples
-  docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
 
 - title: Methods
   docs:
@@ -20,3 +12,8 @@
   - vader
   - stanford
   - antconc
+
+- title: Conclusion
+  docs:
+  - result-reflection
+  - bibliography

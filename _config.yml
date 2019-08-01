@@ -41,6 +41,13 @@ defaults:
     sectionid: blog
 
 - scope:
+    path: _stats
+    type: posts
+  values:
+    layout: post
+    sectionid: stats
+
+- scope:
     path: _docs
     type: docs
   values:
