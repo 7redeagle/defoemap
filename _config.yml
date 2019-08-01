@@ -1,0 +1,58 @@
+# Site settings
+title: Plotting Defoe's Adventure Novels
+email: chenina @ sas.upenn.edu
+description: >
+  My research project was an emotion map of Daniel Defoe’s adventure novels. The novels used were Robinson Crusoe (1719),
+  Captain Singleton (1720), and Colonel Jack (1722). The map was meant to show the emotions associated with locations
+  mentioned (not necessarily visited) in these books.
+lang: en-US
+
+baseurl: "/defoe-map" # the subpath of your site, e.g. /blog/
+url: https://redadvance.github.io/defoe-map # the base hostname & protocol for your site
+git_address: https://github.com/redadvance/defoe-map
+git_edit_address: https://github.com/redadvance/defoe-map/blob/gh-pages
+
+# theme options from https://bootswatch.com/
+# comment out this to use default Bootstrap
+bootwatch: superhero
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+timezone: America/New_York
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+    sectionid: docs
+    seo:
+      type: "WebPage"
+
+collections:
+  docs:
+    permalink: /:collection/:path/
+    output: true
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+    output: true
