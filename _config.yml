@@ -41,14 +41,6 @@ defaults:
     sectionid: blog
 
 - scope:
-    path: _excel
-    type: excel
-  values:
-    layout: excel
-    sectionid: excel
-
-
-- scope:
     path: _docs
     type: docs
   values:
