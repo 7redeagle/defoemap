@@ -15,5 +15,5 @@ permalink: /docs/alice-method/
 8. Copy and paste the ones with color onto separate spread sheet
 9. Sentiment analysis time!
 
-![Alice Method](https://github.com/IC97/Defoe-Map/blob/master/images/alice-method.png)
+<img src="{{site.baseurl}}/img/alice-method.png">
 

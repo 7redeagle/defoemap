@@ -1,0 +1,12 @@
+---
+title: Result and Reflection
+permalink: /docs/result-reflection/
+---
+
+## Result and Reflection
+
+From the Defoe’s map, I noticed that England and London produced neutral sentiments, which made sense since those locations were where the characters started out. Spain, France, Africa, and the Caribbean Islands had incredibly negative sentiments. This correlated with Britain’s rivalry with Spain and Africa and their prejudice towards Africa as a wild and uncivilized place. The Caribbeans also had pirates that pillaged merchant ships during the  18th-century. I also found out that Defoe saw places like London and Lisbon as mercantile locations or locations primarily used for business transactions.
+
+There were a couple of problems with my method. First, it was tedious work. I had to find all the passages with the location tag one at a time and run them through each of them through a sentiment analysis tool. Luckily Alice came up with a method to cut down on the amount of work using a text editor and google sheets to separate each passage with a location tag into single lines. The second problem was that a passage would contain multiple locations. For this, I would look at whether this passage was relevant in that it has some emotion attached to it rather than just listing a bunch of locations visited. Then if that passage was deemed relevant, I would simply analyze the same passage multiple times for each location in it. Another problems was that sentiment analysis tools were mainly used for social media tweets and not large bodies of text from 18th-century. Vader tended to provide a more positive rating and rarely gave a neutral rating while Stanford sentiment analysis tool almost always gave a negative rating. More than once, I defaulted to my own judgement of the text which can be biased since I have read some of the novels rather than analyzing the passage as an isolated text apart from the novel.
+
+If I were to continue with this project, I would want a more streamlined and less tedious and time-consuming way to analyze a large corpus rather than simple four or five books. I also would want to more in depth emotions in my map like anger or sadness. I wanted to figure out a way to attain more nuanced emotions from the text beyond just rating the passages as negative, positive or neutral. Furthermore, I wanted a way to link the data points to a page with the passage it came from so that the reader can interpret the text themselves.

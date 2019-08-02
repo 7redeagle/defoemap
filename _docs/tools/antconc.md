@@ -7,7 +7,7 @@ permalink: /docs/antconc/
 
 AntConc is a program capable of analyzing and extrapolating patterns in electronic text. With AntConc, you can identify the pattern of a specific word or look at the differences between corpora.
 
-![alt text](https://github.com/IC97/Defoe-Map/blob/master/images/antconc.png "AntConc")
+<img src="{{site.baseurl}}/img/antconc.png">
 
 ### AntConc Collocation:
 
@@ -23,3 +23,4 @@ As I continued working on this project, I eventually started to branch off into 
 8. Click ‘Start’ button
 9. Pick the words that jump out at you in the top 30 (sorted by stat)
 10. Record that data onto the google sheets containing emotional readings
+

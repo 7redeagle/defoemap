@@ -13,7 +13,7 @@ Vader Grade Score: The compound score is computed by summing the valence scores 
 * neutral sentiment: 0.05 > compound score > -0.05
 * negative sentiment: compound score <= -0.05
 
-![alt text](https://github.com/IC97/Defoe-Map/blob/master/images/vader-sample.png "Vader Sample")
+<img src="{{site.baseurl}}/img/vader-sample.png">
 
 ## Vader Setup:
 1. Read How to Guide: [Sentiment Analysis for Exploratory Data Analysis](https://programminghistorian.org/en/lessons/sentiment-analysis#exploring-text-with-sentiment-analysis)
