@@ -14,10 +14,28 @@
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | prepend: site.baseurl }}">Documentations</a></li>
-        <li {% if page.id=='data' %} class="active" {% endif %}><a href="{{ site.baseurl }}/data.html">Data</a></li>
-        <li {% if page.id=='map' %} class="active" {% endif %}><a href="{{ site.baseurl }}/map.html">Maps</a></li>
+        <li {% if page.sectionid=='data' %} class="active" {% endif %}>
+                    <a href="{{ "/index.html" | prepend: site.baseurl }}" class="dropdown-toggle" data-toggle="dropdown">Data<div class="caret"></div></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="{{site.baseurl}}/data/data-1.html/">Colonel Jack</a></li>
+                      <li><a href="{{site.baseurl}}/data/data-2.html/">A Sentimental Journey</a></li>
+                      <li><a href="{{site.baseurl}}/data/data-3.html/">Captain Cooke</a></li>
+                      <li><a href="{{site.baseurl}}/data/data-4.html/">Robinson Crusoe</a></li>
+                      <li><a href="{{site.baseurl}}/data/data-5.html">Captain Singleton</a></li>
+                    </ul>
+                </li>
+         <li {% if page.sectionid=='map' %} class="active" {% endif %}>
+                    <a href="{{ "/index.html" | prepend: site.baseurl }}" class="dropdown-toggle" data-toggle="dropdown">Maps<div class="caret"></div></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="{{site.baseurl}}/data/maps/map-1.html/">Daniel Defoe's Emotion Map</a></li>
+                      <li><a href="{{site.baseurl}}/data/maps/map-2.html/">Travel Literature Map</a></li>
+                      <li><a href="{{site.baseurl}}/data/maps/map-3.html/">Robinson Crusoe's Journey</a></li>
+                      <li><a href="{{site.baseurl}}/data/maps/map-4.html/">A Sentimental Journey's Map</a></li>
+                    </ul>
+                </li>
         <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">Blog</a></li>
       </ul>
+
       <div class="navbar-right">
         <form class="navbar-form navbar-left">
           <div class="form-group has-feedback">
@@ -26,7 +44,8 @@
           </div>
         </form>
         <ul class="nav navbar-nav">
-          <li><a href="{{ site.git_address }}"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="{{ site.git_address }}" target="blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://redadvance.github.io" target="blank"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
         </ul>
       </div>
     </div>
