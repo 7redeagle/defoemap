@@ -30,6 +30,9 @@ Built using [Jekyll](http://jekyllrb.com), the static site generator.
    jekyll serve
    ```
 ---
+## Credit
+
+[jekyll-docs-theme](https://github.com/allejo/jekyll-docs-theme) was used as a base for development of this theme.
 
 ## License
 
