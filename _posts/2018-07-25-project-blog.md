@@ -18,10 +18,15 @@ I chose this project because I was curious about Britain’s relationship with o
 
 I soon realized my earlier methods were too time consuming so I sought for a more machine-oriented way to streamline the process. My new method involved NER tagging the text (taken from Gutenberg) then locating the passages with those location tags and running those passages through two sentiment analysis tools before providing my own score of that passage. The two sentiment analysis tools used were Vader and Stanford sentiment analysis tool. Vader seems to provide a more positive rating while Stanford mostly gives out negative ratings to the passages. I then used ArcGIS to create a map for Defoe’s novels, which has different layers for each novel followed by separate layers for Vader, Stanford and my score of that novel. This method focused on locations mentioned in the text rather than the actual location the characters were in.
 
-![Robinson Crusoe's Journey](https://github.com/IC97/Defoe-Map/blob/master/images/crusoe-map.png)
+---
 
+<img src="{{site.baseurl}}/img/crusoe-map.png">
 
-![Defoe's Map](https://github.com/IC97/Defoe-Map/blob/master/images/defoe-map.png)
+---
+
+<img src="{{site.baseurl}}/img/defoe-map.png">
+
+---
 
 As I continued working on this project, I added a secondary project using AntConc. I found out that if I collocate (finding the most frequent words around a certain word) a location word then I could get peripheral words that provide a general idea of the author’s description of that location. For example, in Robinson Crusoe, when I did a collocation search for the word  ‘Africa,’ the most frequent words to appear were: vulgarly, enterprises, productions, leopards, sailors, desert, tigers, shipwrecked, perished, lions, skins, misfortunes. These words painted Africa as a wild and dangerous place that was also very profitable. Another example was the location word ‘Sallee’ which produced the results: Turkish, Turks, rovers, moors, war, emperor, devoured, prisoners. This provided a very negative illustration a place controlled by the Turks who were barbarians that took prisoners. This is supported 18th-century British sentiments towards the Turks.
 
