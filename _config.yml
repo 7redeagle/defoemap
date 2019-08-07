@@ -8,9 +8,9 @@ description: >
 lang: en-US
 
 baseurl: "/defoe-map" # the subpath of your site, e.g. /blog/
-url: https://redadvance.github.io/defoe-map # the base hostname & protocol for your site
-git_address: https://github.com/redadvance/defoe-map
-git_edit_address: https://github.com/redadvance/defoe-map/blob/gh-pages
+url: https://redadvance.github.io/defoemap # the base hostname & protocol for your site
+git_address: https://github.com/redadvance/defoemap
+git_edit_address: https://github.com/redadvance/defoemap/blob/gh-pages
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
