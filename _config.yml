@@ -7,7 +7,7 @@ description: >
   mentioned (not necessarily visited) in these books.
 lang: en-US
 
-baseurl: "/defoe-map" # the subpath of your site, e.g. /blog/
+baseurl: "/defoemap" # the subpath of your site, e.g. /blog/
 url: https://redadvance.github.io/defoemap # the base hostname & protocol for your site
 git_address: https://github.com/redadvance/defoemap
 git_edit_address: https://github.com/redadvance/defoemap/blob/gh-pages
