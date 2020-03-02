@@ -1,6 +1,6 @@
 # Site settings
 title: Plotting Defoe's Adventure Novels
-email: chenina @ sas.upenn.edu
+email: 
 description: >
   My research project was an emotion map of Daniel Defoe’s adventure novels. The novels used were Robinson Crusoe (1719),
   Captain Singleton (1720), and Colonel Jack (1722). The map was meant to show the emotions associated with locations
@@ -8,9 +8,9 @@ description: >
 lang: en-US
 
 baseurl: "/defoemap" # the subpath of your site, e.g. /blog/
-url: https://redadvance.github.io/defoemap # the base hostname & protocol for your site
-git_address: https://github.com/redadvance/defoemap
-git_edit_address: https://github.com/redadvance/defoemap/blob/gh-pages
+url: https://tiger-fish.github.io/defoemap # the base hostname & protocol for your site
+git_address: https://github.com/tiger-fish/defoemap
+git_edit_address: https://github.com/tiger-fish/defoemap/blob/gh-pages
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
